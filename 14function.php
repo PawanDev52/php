@@ -1,5 +1,6 @@
 <?php
-// learning functions today video 16
+// learning functions today in video 16
+
 function processMarks($marksArr){
     $sum = 0;
     foreach ($marksArr as $value){
@@ -13,6 +14,5 @@ $sumMarks = processMarks($rohanDas);
 
 echo "Total marks scored by rohan out of 600 is $sumMarks <br>";
 echo $sumMarks;
-
 
 ?>
