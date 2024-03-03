@@ -25,7 +25,4 @@ switch($age){
         break;
 }
 
-
-
-
 ?>
