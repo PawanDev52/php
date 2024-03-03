@@ -7,13 +7,13 @@
 // }
 
 // while loop
-
-// $i = 0;
-// while ($i <= 5) {
-//     echo $i+1;
-//     echo "<br>";
-//     $i++;
-// }
+/*
+$i = 0;
+while ($i <= 5) {
+    echo $i+1;
+    echo "<br>";
+    $i++;
+} */
 
 // do while loop
 // echo "Welcome to do while loop <br>";
