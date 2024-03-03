@@ -1,5 +1,6 @@
 <?php
 // learning date function today in video 17
+
 // $d = date("d-m-y");
 // $d = date("jS"); // big S for th and small s for second
 // $d = date("jS F Y");
@@ -19,8 +20,5 @@
 $d = date("Y-m-d H:i:s");
 
 echo "today is $d";
-
-
-
 
 ?>
