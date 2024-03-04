@@ -7,7 +7,7 @@ $c = 99;
 
 function printValue(){
     global $a, $b; // give me the access to the global variable
-    $a = 100;
+    $a = 100;  // this is a local variable
     $b = 1000;
     echo "the value of your variable a is $a and b is $b";
 }
