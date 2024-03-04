@@ -1,5 +1,6 @@
 <?php
 // connecting mysql database from php script video 24
+
 // ways to connect to a mysql database
 // MySqli extension
 // PDO
@@ -31,6 +32,7 @@ if ($result) {
 else{
     echo "the database was not created successfully because of this error --> ". mysqli_error($conn);
 }
+
 echo "the result is ";
 echo var_dump($result);
 echo "<br>";
