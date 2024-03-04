@@ -50,6 +50,7 @@
   </nav>
   <?php
   // learning get & post today in video 21
+
   if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['pass'];
@@ -61,9 +62,7 @@
 </div>';
   }
 
-
   // submit these to a database
-
   ?>
   <div class="container mt-3">
     <h1>Please enter your email & password</h1>
@@ -77,7 +76,6 @@
         <label for="pass">Password</label>
         <input type="password" class="form-control" id="pass" name="pass">
       </div>
-
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
@@ -88,5 +86,4 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
 </html>
