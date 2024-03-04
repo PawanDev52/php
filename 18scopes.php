@@ -1,7 +1,7 @@
 <?php
 // learning scopes of local / global variables in video 20
 
-$a = 89;
+$a = 89; // this is a global variable
 $b = 78;
 $c = 99;
 
