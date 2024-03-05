@@ -1,5 +1,6 @@
 <?php
 // learning how to insert data in tables in video 27
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -13,7 +14,6 @@ if (!$cont){
 else{
     echo "connection was successful<br>";
 }
-
 
 // $sql = "INSERT INTO `newtable` (`roll num`, `class`, `marks`) VALUES ('', 'panda', 'nifty')";
 // $sql = "INSERT INTO `newtable` (`class`, `marks`) VALUES ('panda', 'nifty')";
@@ -31,6 +31,5 @@ if ($result) {
 else{
     echo "the record was not created successfully because of this error --> ". mysqli_error($cont);
 }
-
 
 ?>
