@@ -64,7 +64,8 @@
 
     if (!$cont) {
       die("sorry we failed to connect: " . mysqli_connect_error());
-    } else {
+    }
+    else {
       // submitting to the database
       $sql = "INSERT INTO `contact us` (`name`, `email`, `consern`, `date`) VALUES ('$name', '$email', '$desc', current_timestamp())";
 
@@ -77,7 +78,8 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div>';
-      } else {
+      }
+      else {
         // echo "the record was not submitted successfully because of this error --> ". mysqli_error($cont);
         echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
   <strong>Error</strong> we are facing some issues so your entry was not been submitted succesfully. we regret the inconvience caused!
@@ -108,7 +110,7 @@
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-
 </html>
