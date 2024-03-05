@@ -1,5 +1,6 @@
 <?php
 // creating tables in database in video 26
+
 $servername = "localhost";
 $username = "root";
 $password = "";
