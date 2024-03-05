@@ -72,7 +72,7 @@
       $result = mysqli_query($cont, $sql);
 
       if ($result) {
-        echo "the record has been submitted successfully!";
+        // echo "the record has been submitted successfully!";
         echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
   <strong>Success</strong> Your entry has been submitted succesfully.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
