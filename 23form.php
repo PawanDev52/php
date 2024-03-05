@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact us</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -47,8 +45,10 @@
       </div>
     </div>
   </nav>
+
   <?php
-  // learning form submit data today in video 28
+  // learning submitting data of form today in video 28
+
   if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -88,6 +88,7 @@
     }
   }
   ?>
+  
   <div class="container">
     <h1>Contact us for your concern</h1>
     <form action="/pawanphp/23form.php" method="post">
