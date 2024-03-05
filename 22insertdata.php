@@ -1,5 +1,5 @@
 <?php
-// learning inserting data in video 27
+// learning how to insert data in tables in video 27
 $servername = "localhost";
 $username = "root";
 $password = "";
