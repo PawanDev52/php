@@ -21,7 +21,7 @@ $result = mysqli_query($connect, $sql);
 // find the number of records returned
 $num = mysqli_num_rows($result);
 echo $num;
-echo "records found in the database <br>";
+echo " records found in the database <br>";
 
 // display the rows returned by the sql query
 if($num>0){
