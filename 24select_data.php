@@ -36,7 +36,7 @@ if($num>0){
     // we can fetch in a better way using the while loop
     while($row = mysqli_fetch_assoc($result)){
         // echo var_dump($row);
-        echo $row['sr no'] . " Hello " . $row['name'] .", your email is - " . $row['email'] ." and your consern is " . $row['consern'];
+        echo $row['sr no'] . " Hello " . $row['name'] .", your email is -> " . $row['email'] ." and your consern is -> " . $row['consern'];
         echo "<br>";
     }
 }
