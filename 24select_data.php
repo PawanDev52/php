@@ -1,5 +1,6 @@
 <?php
-// learning in video 29
+// learning select or read data in video 29
+
 $servername = "localhost";
 $username = "root";
 $password = "";
