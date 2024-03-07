@@ -1,5 +1,6 @@
 <?php
-// learning how to delete records in this video 31
+// learning how to delete records in video 31
+
 $servername = "localhost";
 $username = "root";
 $password = "";
