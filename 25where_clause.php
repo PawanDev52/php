@@ -39,6 +39,7 @@ echo var_dump($result);
 echo "<br>";
 $aff = mysqli_affected_rows($connection);
 echo "Number of affected rows: $aff";
+
 if($result){
     echo "<br> we updated the record successfully!";
 }
