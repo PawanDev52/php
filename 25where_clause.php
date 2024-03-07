@@ -36,6 +36,7 @@ $sql = "UPDATE `newtable` SET `marks` = 'jercy' WHERE `class` = 'panda'";
 $result = mysqli_query($connection, $sql);
 
 echo var_dump($result);
+echo "<br>";
 $aff = mysqli_affected_rows($connection);
 echo "Number of affected rows: $aff";
 if($result){
