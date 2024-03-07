@@ -1,5 +1,6 @@
 <?php
 // learning where clause in video 30
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -33,6 +34,7 @@ if($num>0){
 // usage of where clause to update data
 $sql = "UPDATE `newtable` SET `marks` = 'jercy' WHERE `class` = 'panda'";
 $result = mysqli_query($connection, $sql);
+
 echo var_dump($result);
 $aff = mysqli_affected_rows($connection);
 echo "Number of affected rows: $aff";
