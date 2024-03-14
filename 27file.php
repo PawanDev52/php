@@ -6,5 +6,4 @@
 // learning with code with harry
 
 // include and require in php
-
 ?>
