@@ -7,7 +7,7 @@
 // In require - it makes required the condition otherwise code will not execute, it will not only show warning but error also.
 require 'db_connect.php';
 
-$sql = "SELECT * FROM `contact us`";
+$sql = "SELECT * FROM `newtable`";
 $result = mysqli_query($connect, $sql);
 
 // find the number of records returned
