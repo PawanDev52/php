@@ -3,8 +3,8 @@
 
 // include is used to include a file 
 // if there is any error in that file still this code will execute!
-// include 'db_connect.php'; 
-require 'db_connect.php';
+include 'db_connect1.php'; 
+// require 'db_connect.php';
 echo "this file";
 
 
