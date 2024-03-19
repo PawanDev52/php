@@ -5,6 +5,7 @@
 // if there is any error in that file still this code will execute!
 // include 'db_connect.php'; 
 require 'db_connect.php';
+echo "this file";
 
 
 ?>
