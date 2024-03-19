@@ -7,6 +7,16 @@
 // In require - it makes required the condition otherwise code will not execute, it will not only show warning but error also.
 require 'db_connect.php';
 
+$sql = "SELECT * FROM `contact us`";
+$result = mysqli_query($connect, $sql);
 
-
+// find the number of records returned
+$num = mysqli_num_rows($result);
+echo $num;
+echo " records found in the database <br>";
+while($row = mysqli_fetch_assoc($result)){
+    // echo var_dump($row);
+    echo $row['sr no'] . " Hello " . $row['name'] .", your email is - '" . $row['email'] ."' and your consern is - " . $row['consern'] . "!!";
+    echo "<br>";
+}
 ?>
