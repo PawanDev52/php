@@ -6,8 +6,8 @@
 // it will show only warning
 // include 'db_connect.php';
 
-// in require it makes required the condition otherwise code will not execute 
-// 
+// in require - it makes required the condition otherwise code will not execute 
+// it will not only show warning but error also
 require 'db_connect.php';
 echo "this file";
 
