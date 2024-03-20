@@ -16,7 +16,7 @@ echo $num;
 echo " records found in the database <br>";
 while($row = mysqli_fetch_assoc($result)){
     // echo var_dump($row);
-    echo $row['sr no'] . " Hello " . $row['name'] .", your email is - '" . $row['email'] ."' and your consern is - " . $row['consern'] . "!!";
+    echo $row['roll num'] . " Your Class is " . $row['class'] .", your marks is - '" . $row['marks'] . "!!";
     echo "<br>";
 }
 ?>
