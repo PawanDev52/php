@@ -4,5 +4,6 @@
 // echo $a;
 
 readfile("myfile.txt");
+// if you read file by this method it will not return total no. of characters.
 
 ?>
