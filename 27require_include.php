@@ -8,7 +8,7 @@
 require 'db_connect.php';
 
 $sql = "SELECT * FROM `newtable`";
-$result = mysqli_query($connect, $sql);
+$result = mysqli_query($connection, $sql);
 
 // find the number of records returned
 $num = mysqli_num_rows($result);
