@@ -8,4 +8,5 @@ if(!$fptr){
 }
 $content = fread($fptr, filesize("myfile.txt"));
 echo $content;
+fclose($fptr);
 ?>
