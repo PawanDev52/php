@@ -1,5 +1,5 @@
 <?php
-// learning fopen and close and read files in video 35
+// learning fopen and fclose and read files in video 35
 
 $fptr = fopen("myfile.txt", "r");
 // echo var_dump($fptr);
