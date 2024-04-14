@@ -11,5 +11,4 @@ if(!$fptr){
 $content = fread($fptr, filesize("myfile.txt"));
 fclose($fptr);
 echo $content;
-
 ?>
