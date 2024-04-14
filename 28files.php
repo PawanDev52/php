@@ -6,7 +6,5 @@
 
 readfile("myfile.txt");
 // if you read file by this method it will not return total no. of characters in the end.
-
-// text file ki tarah html file ko bhi read kar sakte hai same method se
-
+// text file ki tarah html file ko bhi read kar sakte hai same method se.
 ?>
