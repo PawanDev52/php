@@ -1,5 +1,5 @@
 <?php
-// learning fopen and fclose and fread files in video 35
+// learning fopen and fclose and fread methods of files in video 35
 
 $fptr = fopen("myfile.txt", "r");
 // echo var_dump($fptr);
