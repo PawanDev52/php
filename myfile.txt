@@ -1,4 +1,4 @@
-// this is text file - PHP Repository
+// text file - PHP Repository!
 This is the text file of this repository.
 and this is used for reading file!
 this file is used for learning file methods.
