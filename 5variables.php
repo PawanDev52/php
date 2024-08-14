@@ -1,6 +1,5 @@
 <?php
-
-// learning variables today video 5
+// learning variables today in video - 5
 
 // php is not case sensitive language
 // echo "this is variable";
