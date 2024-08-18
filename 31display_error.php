@@ -1,5 +1,5 @@
 <?php
 echo phpinfo();
 
-// for displaying error check video #12 of code step by step
+// for displaying error check video - 12 of code step by step!
 ?>
