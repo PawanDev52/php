@@ -7,6 +7,7 @@ $ary = array('this', 'that', 'what');
 echo $ary[0];
 echo $ary[1];
 echo $ary[2];
+echo count($ary); // for counting the length of the array
 */
 
 // Associate array
