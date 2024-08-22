@@ -16,6 +16,7 @@ echo $sumMarks;
 */
 
 // Basic Function
+/*
 function heading()
 {
     echo "<h3>User Details</h3>";
@@ -34,9 +35,25 @@ displayDetails();
 displayDetails();
 displayDetails();
 displayDetails();
+*/
 
 // ============================================================================================
 
 // function with parameter
+function sum($a, $b){
+    echo $a + $b;
+    echo "<br/>";
+}
+sum(12, 45);
+sum(34, 90);
+
+function userdata($name, $color){
+    echo "<h1 style='color:$color;'>$name</h1>";
+}
+userdata("tester", "green");
+
+// ==========================================================================================================
+
+// function with return statement
 
 ?>
