@@ -13,18 +13,21 @@
 // String - sequence of characters
 $name = "joy";
 $friend = 'dholu';
+var_dump($friend);
 echo "$name is a friend of $friend";
 echo "<br>";
 
 // Integer - non decimal number
 $income = 444;
 $interest = -556;
+var_dump($income);
 echo "$income and $interest";
 echo "<br>";
 
 // Float - decimal point number
 $income = 42.4;
 $interest = 5.56;
+var_dump($interest);
 echo "$income and $interest";
 echo "<br>";
 
