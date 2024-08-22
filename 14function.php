@@ -78,17 +78,27 @@ echo "<h2>the user name is " . userName() . "</h2>"
 // ===================================================================
 
 // Nested function
-function test() {
-    echo "test function called <br/>";
-    function test2() {
-        echo "test2 function called";
-    }
-}
-test();
-test2();
+// function test() {
+//     echo "test function called <br/>";
+//     function test2() {
+//         echo "test2 function called";
+//     }
+// }
+// test();
+// test2();
 
 // ================================================================
 
 // Variable function
 
+function test() {
+    echo "test function called <br/>";
+}
+$tst = "test";
+$tst();
+
+function main($a){
+    $a();
+}
+main($tst);
 ?>
