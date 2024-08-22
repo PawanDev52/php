@@ -9,6 +9,12 @@ echo "<br>";
 echo strlen($name); // for checking string length
 echo "<br>";
 
+echo substr($name, 12); // it will slice the string
+echo "<br/>";
+
+echo is_string($name); // for checking if it is string or not
+echo "<br/>";
+
 echo "the length of my string is " . strlen($name);
 echo "<br>";
 echo "the length of " . "my string is " . strlen($name);
@@ -30,5 +36,11 @@ echo rtrim("          this   is a good    string   ");
 echo "<br>";
 echo ltrim("        this is       good         string         ");
 echo "</pre>";
+
+$a = 123;
+echo is_int($a);
+echo "<br/>";
+
+echo rand(); // for generating random number
 
 ?>
