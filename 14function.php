@@ -40,6 +40,7 @@ displayDetails();
 // ============================================================================================
 
 // function with parameter
+/*
 function sum($a, $b){
     echo $a + $b;
     echo "<br/>";
@@ -51,9 +52,14 @@ function userdata($name, $color){
     echo "<h1 style='color:$color;'>$name</h1>";
 }
 userdata("tester", "green");
+*/
 
 // ==========================================================================================================
 
 // function with return statement
-
+function userName() {
+    // echo "tommy tin"; // echo display the value
+    return "tommy tin"; // return gives the output
+}
+echo "<h2>the user name is " . userName() . "</h2>"
 ?>
