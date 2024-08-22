@@ -37,7 +37,7 @@ displayDetails();
 displayDetails();
 */
 
-// ============================================================================================
+// =========================================================================
 
 // function with parameter
 /*
@@ -54,12 +54,19 @@ function userdata($name, $color){
 userdata("tester", "green");
 */
 
-// ==========================================================================================================
+// ============================================================================
 
 // function with return statement
+/*
 function userName() {
     // echo "tommy tin"; // echo display the value
     return "tommy tin"; // return gives the output
 }
 echo "<h2>the user name is " . userName() . "</h2>"
+*/
+
+// ====================================================================
+
+// function with default parameter
+
 ?>
