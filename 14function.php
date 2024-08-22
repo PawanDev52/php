@@ -68,5 +68,15 @@ echo "<h2>the user name is " . userName() . "</h2>"
 // ====================================================================
 
 // function with default parameter
+function fruit($name, $color = "green")
+{
+    echo "this is $name and it's color is $color. <br/>";
+}
+fruit("mango");
+fruit("mango", "yellow");
+
+// ===================================================================
+
+// Nested function
 
 ?>
