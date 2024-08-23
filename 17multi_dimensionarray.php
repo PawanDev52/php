@@ -8,6 +8,9 @@
 
 // echo var_dump($multiDin);
 // echo $multiDin[2][0];
+// echo "<pre>";
+// print_r($multiDin);
+// echo "</pre>";
 
 // printing the contents of a 2 dimensional array
 /*
