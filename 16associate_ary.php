@@ -11,6 +11,7 @@ echo count($ary); // for counting the length of the array
 */
 
 // Associate array
+/*
 $favCol = array('shubham' => 'red',
                 'rohan' => 'green',
                 'sohan' => 'blue',
@@ -28,5 +29,13 @@ foreach ($favCol as $key => $value) {
         // echo $value;
         // echo "<br>";
 }
+*/
 
+// ===============================================================================
+
+$users = ["sandy", "mandy", "candy", "peter", "rocky"];
+foreach($users as $x){
+        echo $x;
+        echo "<br/>";
+}
 ?>
