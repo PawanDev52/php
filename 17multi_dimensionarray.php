@@ -55,7 +55,7 @@ for ($i=0; $i <count($multiDin); $i++) {
 } */
 
 // trying 4 dimension array
-
+/*
 $multiDin = array(array(array(array(0,0,0,0),
                               array(0,0,0,1),
                               array(0,0,1,0)),
@@ -96,6 +96,23 @@ for ($i=0; $i <count($multiDin); $i++){
             echo "<br>";
         }
         echo "<br>";
+    }
+    echo "<br>";
+}
+*/
+
+// multidimension assosicated array with foreach
+$users = [
+    ['name'=> 'paul', 'age'=> '45', 'city'=> 'noida'],
+    ['name'=> 'drew', 'age'=> '41', 'city'=> 'gurgaon'],
+    ['name'=> 'dholu', 'age'=> '35', 'city'=> 'patna'],
+    ['name'=> 'bholu', 'age'=> '56', 'city'=> 'delhi'],
+    ['name'=> 'kaliya', 'age'=> '25', 'city'=> 'surat'],
+];
+foreach ($users as $user) {
+    foreach ($user as $value) {
+        echo $value;
+        echo " ";
     }
     echo "<br>";
 }
