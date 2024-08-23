@@ -33,9 +33,22 @@ foreach ($favCol as $key => $value) {
 
 // ===============================================================================
 
-$users = ["sandy", "mandy", "candy", "peter", "rocky"];
+$users = ["sandy", "mandy", "candy", "peter", "rocky", "sam"];
 foreach($users as $x){
+        if($x == "peter"){
+                continue;
+        }
         echo $x;
         echo "<br/>";
+        // if($x=="candy"){
+        //         break;
+        // }
 }
+
+// another method of foreach loop
+foreach($users as $a):
+        echo $a;
+        echo "<br/>";
+endforeach
+
 ?>
