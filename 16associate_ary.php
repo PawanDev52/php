@@ -2,13 +2,17 @@
 // learning associate arrays today in video 18
 
 // normal array called indexed array
-/*
-$ary = array('this', 'that', 'what');
-echo $ary[0];
-echo $ary[1];
-echo $ary[2];
-echo count($ary); // for counting the length of the array
-*/
+
+// $ary = array('this', 'that', 'what');
+// echo $ary[0];
+// echo $ary[1];
+// echo $ary[2];
+// echo count($ary); // for counting the length of the array
+// array_push($ary, "how", "who", "when", "then"); // for inserting elements in the array
+// array_pop($ary); // removes only last element from the array
+// array_splice($ary, -2); // for removing multiple elements from array
+// print_r($ary);
+
 
 // Associate array
 /*
