@@ -33,6 +33,7 @@ foreach ($favCol as $key => $value) {
 
 // ===============================================================================
 
+/*
 $users = ["sandy", "mandy", "candy", "peter", "rocky", "sam"];
 foreach($users as $x){
         if($x == "peter"){
@@ -49,6 +50,21 @@ foreach($users as $x){
 foreach($users as $a):
         echo $a;
         echo "<br/>";
+endforeach
+*/
+
+// assosiative array
+$userDetails = [
+        "name" => "peter",
+        "age" => 29,
+        "city" => "tokyo",
+        "state" => "japan",
+        "email" => "abc@gmail.com"
+];
+// echo $userDetails["name"];
+
+foreach($userDetails as $key => $value):
+        echo "<h3>the value of $key is $value </h3><br/>";
 endforeach
 
 ?>
