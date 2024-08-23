@@ -103,18 +103,16 @@ for ($i=0; $i <count($multiDin); $i++){
 
 // multidimension assosicated array with foreach
 $users = [
-    ['name'=> 'paul', 'age'=> '45', 'city'=> 'noida'],
-    ['name'=> 'drew', 'age'=> '41', 'city'=> 'gurgaon'],
-    ['name'=> 'dholu', 'age'=> '35', 'city'=> 'patna'],
-    ['name'=> 'bholu', 'age'=> '56', 'city'=> 'delhi'],
-    ['name'=> 'kaliya', 'age'=> '25', 'city'=> 'surat'],
+    ['name' => 'paul', 'age' => '45', 'city' => 'noida'],
+    ['name' => 'drew', 'age' => '41', 'city' => 'gurgaon'],
+    ['name' => 'dholu', 'age' => '35', 'city' => 'patna'],
+    ['name' => 'bholu', 'age' => '56', 'city' => 'delhi'],
+    ['name' => 'kaliya', 'age' => '25', 'city' => 'surat'],
 ];
 foreach ($users as $user) {
-    foreach ($user as $value) {
-        echo $value;
-        echo " ";
+    foreach ($user as $key => $value) {
+        echo "$key is $value || ";
     }
-    echo "<br>";
+    echo "<br> <br>";
 }
-
 ?>
