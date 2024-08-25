@@ -1,6 +1,9 @@
 <?php
 // learning date function today in video 17
 
+// echo date_default_timezone_get(); // for checking the current time zone
+// date_default_timezone_set('Asia/Kolkata'); // for setting time zone
+
 // $d = date("d-m-y");
 // $d = date("jS"); // big S for th and small s for second
 // $d = date("jS F Y");
@@ -20,5 +23,4 @@
 $d = date("Y-m-d H:i:s");
 
 echo "today is $d";
-
 ?>
