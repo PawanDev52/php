@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form handling</title>
+</head>
+<body>
+  <form action="./43formhandling.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name" />
+    <br /><br />
+    <input type="text" name="email" placeholder="Enter your email" />
+    <br /><br />
+    <input type="password" name="password" placeholder="Enter your password" />
+    <br /><br />
+    <input type="checkbox" name="skills[]" value="php" /><span>PHP</span><br />
+    <input type="checkbox" name="skills[]" value="laravel" /><span>Laravel</span><br />
+    <input type="checkbox" name="skills[]" value="java" /><span>Java</span><br />
+    <input type="checkbox" name="skills[]" value="js" /><span>JS</span><br />
+    <br /><br />
+    <input type="radio" name="gender" value="male" /><span>Male</span><br />
+    <input type="radio" name="gender" value="female" /><span>Female</span> <br /><br />
+    <select name="city">
+      <option>Select your city</option>
+      <option value="noida">Noida</option>
+      <option value="delhi">Delhi</option>
+      <option value="gurgaon">Gurgaon</option>
+      <option value="rohtak">Rohtak</option>
+    </select>
+    <br /><br />
+    <textarea name="bio"></textarea>
+    <br /><br />
+    <button name="btn">Sign up</button>
+  </form>
+</body>
+</html>
