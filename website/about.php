@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <?php
+    include_once('header.php');
+    ?>
+    <h1 class="heading">About Page</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla dicta tenetur, quaerat architecto facilis obcaecati pariatur sunt iste libero eos quas facere recusandae perspiciatis. Tempore officia quam itaque? Qui, cumque ea, nihil ipsum tempora maxime cum est sed nulla explicabo, perspiciatis corporis quo autem perferendis provident laudantium asperiores iure facilis quam consectetur dolore? Nam cumque aliquam omnis? Expedita tempore nulla incidunt quas, repellendus sed vero alias adipisci deleniti repellat architecto fugit id voluptas. Illum rerum repellendus impedit quo repellat possimus doloribus sapiente deleniti rem veniam totam adipisci illo, minima qui quia, nulla earum modi esse alias ducimus velit sit!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla dicta tenetur, quaerat architecto facilis obcaecati pariatur sunt iste libero eos quas facere recusandae perspiciatis. Tempore officia quam itaque? Qui, cumque ea, nihil ipsum tempora maxime cum est sed nulla explicabo, perspiciatis corporis quo autem perferendis provident laudantium asperiores iure facilis quam consectetur dolore? Nam cumque aliquam omnis? Expedita tempore nulla incidunt quas, repellendus sed vero alias adipisci deleniti repellat architecto fugit id voluptas. Illum rerum repellendus impedit quo repellat possimus doloribus sapiente deleniti rem veniam totam adipisci illo, minima qui quia, nulla earum modi esse alias ducimus velit sit!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla dicta tenetur, quaerat architecto facilis obcaecati pariatur sunt iste libero eos quas facere recusandae perspiciatis. Tempore officia quam itaque? Qui, cumque ea, nihil ipsum tempora maxime cum est sed nulla explicabo, perspiciatis corporis quo autem perferendis provident laudantium asperiores iure facilis quam consectetur dolore? Nam cumque aliquam omnis? Expedita tempore nulla incidunt quas, repellendus sed vero alias adipisci deleniti repellat architecto fugit id voluptas. Illum rerum repellendus impedit quo repellat possimus doloribus sapiente deleniti rem veniam totam adipisci illo, minima qui quia, nulla earum modi esse alias ducimus velit sit!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla dicta tenetur, quaerat architecto facilis obcaecati pariatur sunt iste libero eos quas facere recusandae perspiciatis. Tempore officia quam itaque? Qui, cumque ea, nihil ipsum tempora maxime cum est sed nulla explicabo, perspiciatis corporis quo autem perferendis provident laudantium asperiores iure facilis quam consectetur dolore? Nam cumque aliquam omnis? Expedita tempore nulla incidunt quas, repellendus sed vero alias adipisci deleniti repellat architecto fugit id voluptas. Illum rerum repellendus impedit quo repellat possimus doloribus sapiente deleniti rem veniam totam adipisci illo, minima qui quia, nulla earum modi esse alias ducimus velit sit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident sint voluptatum deleniti voluptate maiores quaerat repellat quidem repudiandae temporibus ipsa placeat sapiente, aliquid, hic optio eum unde velit nihil accusamus fugiat inventore laudantium! Harum pariatur totam sapiente repellendus, ut quae voluptates ratione quis veniam minima repudiandae illum, reprehenderit commodi tempora libero tenetur nihil ea suscipit perferendis. Perspiciatis deserunt doloremque placeat quam ex consectetur at iste quasi est labore itaque, incidunt rem autem, hic dolores dicta exercitationem dolorem eligendi aut laboriosam quo, voluptas ipsa. Nam voluptatem molestias maxime quasi tenetur laudantium, maiores illum repellendus. Porro officiis, deserunt illo nobis culpa quis quae, qui similique alias explicabo minima neque! Ex, eum! Facilis explicabo iusto nemo a, possimus eum quia necessitatibus temporibus beatae molestiae! Incidunt libero excepturi facilis eligendi commodi architecto aspernatur veniam voluptate fuga quae nemo beatae sapiente, et, error nobis. Optio quas nulla deserunt sint quidem facilis totam aliquid est debitis, nihil maiores itaque, culpa doloremque veritatis dolorem dolorum dolore quibusdam! Harum nostrum perspiciatis commodi tempora eligendi magni soluta, hic quo ullam dolore a maxime! In consectetur doloremque qui? Accusamus fugit placeat beatae! Voluptas nihil fugit, ratione quis, fuga quas earum, necessitatibus mollitia a doloribus distinctio incidunt corporis vero sequi!</p>
+    <?php
+    include_once('footer.php');
+    ?>
+  </div>
+</body>
+</html>
