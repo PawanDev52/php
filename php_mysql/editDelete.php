@@ -20,7 +20,8 @@ echo "<tr>
 <td>Course</td>
 <td>Batch</td>
 <td>City</td>
-<td colspan='2'>Year</td>
+<td>Year</td>
+<td colspan='2'>Operations</td>
 </tr>";
 
 foreach ($result as $student) {
@@ -34,6 +35,7 @@ foreach ($result as $student) {
     <td><form method='post'>
     <button name='delete' value=" . $student['id'] . ">Delete</button>
     </form></td>
+    <td><a href='update.php?id=". $student['id'] ."'>Edit</a></td>
     </tr>";
 }
 echo "</table>";
