@@ -26,18 +26,30 @@ if (isset($_GET['id'])) {
     <br><br>
     <input type="text" name="year" value="<?php echo $year ?>">
     <br><br>
-    <button name="update" value="<?php echo $id ?>" >Update</button>
+    <button name="update" value="<?php echo $id; ?>" >Update</button>
 </form>
 
-<!-- <?php
+<?php
 if(isset($_POST['update'])){
-    $id= $_POST[['update']];
-    include("./config.php");
-    $student = $conn->prepare("update students set where id='$id'");
-    if($student->execute()){
-        echo "Updated successfully";
-    }else{
-        echo "failed to update";
-    }
+    $id = $_POST[['update']];
+    $name = $_POST[['name']];
+    $course = $_POST[['course']];
+    $batch = $_POST[['batch']];
+    $city = $_POST[['city']];
+    $year = $_POST[['year']];
+    $updatestudent = $conn->prepare("update students set
+    name='$name',
+    course='$course',
+    batch='$batch',
+    city='$city',
+    year='$year'
+    where id='$id'");
+    // if($updatestudent->execute()){
+    //     echo "Updated successfully";
+    //     // header('location:editDelete.php');
+    // }else{
+    //     echo "failed to update";
+    // }
+    echo $updatestudent->execute();
 }
-?> -->
+?>
