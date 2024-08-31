@@ -1,7 +1,7 @@
 <?php
 // update records
 include("./config.php");
-if (isset($_GET['id'])) {
+if (isset($_GET['id'])){
     $id = $_GET['id'];
     $getdata = $conn->prepare("select * from students where id='$id'");
     $getdata->execute();
@@ -26,30 +26,29 @@ if (isset($_GET['id'])) {
     <br><br>
     <input type="text" name="year" value="<?php echo $year ?>">
     <br><br>
-    <button name="update" value="<?php echo $id; ?>" >Update</button>
+    <button name="update" value="<?php echo $id; ?>">Update</button>
 </form>
 
 <?php
-if(isset($_POST['update'])){
-    $id = $_POST[['update']];
-    $name = $_POST[['name']];
-    $course = $_POST[['course']];
-    $batch = $_POST[['batch']];
-    $city = $_POST[['city']];
-    $year = $_POST[['year']];
-    $updatestudent = $conn->prepare("update students set
+if (isset($_POST['update'])) {
+    $id = $_POST['update'];
+    $name = $_POST['name'];
+    $course = $_POST['course'];
+    $batch = $_POST['batch'];
+    $city = $_POST['city'];
+    $year = $_POST['year'];
+
+    $updatestdnt = $conn->prepare("update students set 
     name='$name',
     course='$course',
     batch='$batch',
     city='$city',
-    year='$year'
+    year='$year' 
     where id='$id'");
-    // if($updatestudent->execute()){
-    //     echo "Updated successfully";
-    //     // header('location:editDelete.php');
-    // }else{
-    //     echo "failed to update";
-    // }
-    echo $updatestudent->execute();
+    if($updatestdnt->execute()){
+        header('location:editDelete.php');
+    }else{
+        echo "failed to update";
+    }
 }
 ?>

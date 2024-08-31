@@ -44,7 +44,8 @@ if (isset($_POST['delete'])) {
     $id = $_POST['delete'];
     $student = $conn->prepare("delete from students where id='$id'");
     if ($student->execute()) {
-        echo "record deleted successfully";
+        header('location:editDelete.php');
+        // echo "record deleted successfully";
     } else {
         echo "failed to delete";
     }
