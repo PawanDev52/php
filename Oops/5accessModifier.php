@@ -45,6 +45,6 @@ $t1 = new Teachers();
 // $t1->marks(); // it won't work
 
 $s1 = new Management();
-// $s1->reviewmarks();
+$s1->reviewmarks();
 
 ?>
