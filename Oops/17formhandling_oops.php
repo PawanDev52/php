@@ -1,5 +1,5 @@
 <?php
-// form handling with oops
+// form handling with oops class
 
 if (isset($_POST['user'])) {
     class Users
