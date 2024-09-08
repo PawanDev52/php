@@ -1,4 +1,6 @@
 <?php
+// crud operations with oops class
+
 include("config.php");
 
 class Student
@@ -79,12 +81,37 @@ class Student
             echo "operation failed";
         }
     }
+
+    function insertFormData($request)
+    {
+        // print_r($request);
+        $name = $request['name'];
+        $course = $request['course'];
+        $batch = $request['batch'];
+        $city = $request['city'];
+        $year = $request['year'];
+
+        $sqlQuery = "insert into students (`name`, `course`, `batch`, `city`, `year`) values 
+        ('$name', '$course', '$batch', '$city', '$year')";
+        $insrtData = $this->Dbconn->prepare($sqlQuery);
+        $result = $insrtData->execute();
+        if ($result) {
+            echo "data inserted successfully";
+        } else {
+            echo "operation failed";
+        }
+    }
 }
 
 $student = new Student($cont);
 // $student->getData();
 // $student->insertData();
 // $student->updateData();
-$student->deleteData();
+// $student->deleteData();
+
+// handling data with form
+if (isset($_POST['name'])) {
+    $student->insertFormData($_POST);
+}
 
 ?>
