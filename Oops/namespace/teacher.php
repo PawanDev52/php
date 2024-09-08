@@ -5,8 +5,11 @@
 
 // namespace format - 1
 namespace teacher;
-class JoiningDtls{
-    function joiningdate(){
+
+class JoiningDtls
+{
+    function joiningdate()
+    {
         echo "first april";
     }
 }
