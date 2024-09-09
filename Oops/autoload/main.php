@@ -8,7 +8,7 @@ function autoLoader($class)
     echo "<br>";
     include($class . '.php');
 }
-
+// jis class ka object create hota hai vhi class include hoti hai
 spl_autoload_register('autoloader');
 
 $t1 = new Teacher();
