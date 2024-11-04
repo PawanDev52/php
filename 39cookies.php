@@ -6,15 +6,15 @@ setcookie("fruit", "apple", time() + (86400)); // time seconds me mention karna 
 setcookie("color", "red", time() + (86400));
 
 if (isset($_COOKIE['fruit'])) {
-    echo "Current cookie is " . $_COOKIE['fruit'];
+    echo "Current fruit is " . $_COOKIE['fruit'];
 } else {
-    echo "No cookies set";
+    echo "No fruit set";
 }
 
 echo "<br/>";
 
 if (isset($_COOKIE['color'])) {
-    echo "Current cookie is " . $_COOKIE['color'];
+    echo "Current color is " . $_COOKIE['color'];
 } else {
     echo "No cookies set";
 }
