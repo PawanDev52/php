@@ -1,7 +1,8 @@
 <?php
 // set cookies in php
+// setcookie(name, value, expire, path, domain, secure, httponly); // syntax for setting cookies
 
-setcookie("fruit", "apple", time() + (86400));
+setcookie("fruit", "apple", time() + (86400)); // time seconds me mention karna hota hai
 setcookie("color", "red", time() + (86400));
 
 if (isset($_COOKIE['fruit'])) {
