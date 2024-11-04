@@ -16,7 +16,7 @@ echo "<br/>";
 if (isset($_COOKIE['color'])) {
     echo "Current color is " . $_COOKIE['color'];
 } else {
-    echo "No cookies set";
+    echo "No color set";
 }
 
 echo "<br/>";
