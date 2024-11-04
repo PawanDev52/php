@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cookies</title>
+  <title>Cookies with form</title>
 </head>
 <body>
   <form action="" method="post">
@@ -24,14 +22,16 @@
 if (isset($_POST['button'])) {
   if ($_POST['button'] == 'set') {
     $val = $_POST['user'];
-    setcookie('user', $val);
+    setcookie('client', $val, time() + (86400));
     echo "cookie is set";
   }
+
   if ($_POST['button'] == 'display') {
     if (isset($_COOKIE['user'])) {
       echo "cookie is " . $_COOKIE['user'];
     }
   }
+
   // if ($_POST['button'] == 'delete') {
   //     if (isset($_COOKIE['user'])) {
   //         setcookie('user', null, -1);
