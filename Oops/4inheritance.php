@@ -9,6 +9,7 @@ class UserAuth
         echo "$usertype logged in";
     }
 }
+
 // in the below class we are using function of above class also
 class Students extends UserAuth
 {
