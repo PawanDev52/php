@@ -27,16 +27,16 @@ if (isset($_POST['button'])) {
   }
 
   if ($_POST['button'] == 'display') {
-    if (isset($_COOKIE['user'])) {
-      echo "cookie is " . $_COOKIE['user'];
+    if (isset($_COOKIE['client'])) {
+      echo "cookie is " . $_COOKIE['client'];
     }
   }
 
-  // if ($_POST['button'] == 'delete') {
-  //     if (isset($_COOKIE['user'])) {
-  //         setcookie('user', null, -1);
-  //         echo "cookies deleted";
-  //     }
-  // }
+  if ($_POST['button'] == 'delete') {
+    if (isset($_COOKIE['client'])) {
+      setcookie("client", '', -1);
+      echo "cookies deleted";
+    }
+  }
 }
 ?>
