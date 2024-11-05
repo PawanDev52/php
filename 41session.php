@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Session</title>
+  <title>Session with form</title>
 </head>
 <body>
   <form action="" method="post">
@@ -22,11 +22,11 @@ session_start();
 if (isset($_POST['button'])) {
   if ($_POST['button'] == 'set') {
     $val = $_POST['user'];
-    $_SESSION['user'] = $val;
+    $_SESSION['man'] = $val;
   }
 
   if ($_POST['button'] == 'get') {
-    echo $_SESSION['user'];
+    echo $_SESSION['man'];
   }
 
   if ($_POST['button'] == 'delete') {
