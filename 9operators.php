@@ -62,7 +62,7 @@ echo "for m & n, the result is ";
 echo var_dump($m && $n);
 echo "<br>";
 
-echo "for m & n, the result is ";
+echo "for m or n, the result is ";
 // echo var_dump($m or $n);
 echo var_dump($m || $n);
 echo "<br>";
