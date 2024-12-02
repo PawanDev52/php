@@ -62,7 +62,7 @@ function userName() {
     // echo "tommy tin"; // echo display the value
     return "tommy tin"; // return gives the output
 }
-echo "<h2>the user name is " . userName() . "</h2>"
+echo "<h2>the user name is " . userName() . "</h2>";
 */
 
 // ====================================================================
@@ -101,4 +101,5 @@ function main($a){
     $a();
 }
 main($tst);
+
 ?>
