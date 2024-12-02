@@ -26,4 +26,5 @@ $users = ['paul', 'camel', 'henry', 'trippy', 'sam'];
 // $str = "hellow how are you mate";
 // print_r(explode(' ', $str)); // for converting string into array
 // print_r(explode('o', $str)); // whatever you write in the qoutes on that basis string will be converted into array as above string is converted on the basis of space in the string.
+
 ?>

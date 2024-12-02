@@ -8,7 +8,7 @@
 // echo $ary[1];
 // echo $ary[2];
 // echo count($ary); // for counting the length of the array
-// array_push($ary, "how", "who", "when", "then"); // for inserting elements in the array
+// array_push($ary, "how", "who", "when", "then"); // for inserting elements in the last of an array
 // array_pop($ary); // removes only last element from the array
 // array_splice($ary, -2); // for removing multiple elements from array
 // print_r($ary);
