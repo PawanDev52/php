@@ -1,5 +1,5 @@
 <?php
-// Learing string functions today
+// Learning string functions today
 // this is video no. 8
 
 $name = "Jolly singh is the boss of town";
@@ -23,7 +23,7 @@ echo str_word_count($name); // for counting the words
 echo "<br>";
 echo strrev($name); // for reversing the string
 echo "<br>";
-echo strpos($name, "is");
+echo strpos($name, "is"); // for checking the position in string
 echo "<br>";
 echo str_replace("Jolly", "dolly", $name); // for replacing the string
 echo "<br>";
@@ -38,7 +38,7 @@ echo ltrim("        this is       good         string         ");
 echo "</pre>";
 
 $a = 123;
-echo is_int($a);
+echo is_int($a); // for checking int
 echo "<br/>";
 
 echo rand(); // for generating random number
