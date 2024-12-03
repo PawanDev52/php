@@ -6,13 +6,13 @@ class Company
 {
     function getName()
     {
-        echo "toyota company. ";
+        echo "toyota company. <br>";
         return $this;
     }
 
     function getEmp()
     {
-        echo "thousands of employees. ";
+        echo "thousands of employees. <br>";
         return $this; // isse this jo hai company ko return karna hai
     }
 
